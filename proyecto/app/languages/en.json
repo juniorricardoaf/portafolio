@@ -1,0 +1,43 @@
+{
+    "nav": {
+        "1": "Index",
+        "2": "About me",
+        "3": "Skills",
+        "4": "Projects",
+        "5": "Contact"
+    },
+    "footer": {
+        "t1": "Contact",
+        "t2": "Social media"
+    },
+    "slider":{
+        "h1": "Creative solutions, innovative results"
+    },
+    "aboutme":{
+        "h3": "About me",
+        "aboutme1": "I am a web application developer specialized in cloud architectures, and I consider myself an expert in Azure with 5 years of experience supervising and training a large number of people in the technology field as a technical advisor.",
+        "mision": "To excel in every project and task I undertake within the company to positively impact each assignment, continually updating my knowledge and innovating in my solutions.",
+        "vision": "To achieve a high level of expertise in software development by acquiring a broad range of technical and soft skills that make me a distinguished and invaluable professional in the company, contributing knowledge as an outstanding and excellent professional.",
+        "valores": "Values:",
+        "valores2": "Responsibility, Excellence, Teamwork, Creativity, Innovation.",
+        "idiomas": "Languages:",
+        "idiomas2": "English, Spanish",
+        "experiencia": "Work Experience:",
+        "experiencia2": "2020-2022 Tek Experts (DevOps Technical Lead)<br>2022-2023 Microsoft (WebApps Technical Support Engineering)<br>2023-2024 Tek Experts (WebApps Technical Advisor)"
+    },
+    "skills":{
+        "title": "Skills",
+        "1": "Programming Languages:",
+        "2": "Databases:",
+        "3": "Additional Knowledge:",
+        "4": "Frameworks:",
+        "5": "Azure Cloud"
+    },
+    "contact":{
+        "title": "Contact",
+        "1": "Social Media",
+        "2": "Personal Contact:",
+        "3": "If you would like to request information, propose a project, or discuss any other matter, you can contact me using the following form:",
+        "4": "Send"
+    }
+}

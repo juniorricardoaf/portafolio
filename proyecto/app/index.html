@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Junior Aburto">
+    <meta name="description" content="My Portfolio">
+    <meta name="keywords" content="Junior Site">
+    <link rel="shortcut icon" type="image/x-icon" href="./images/v6.png">
+
+    <title>Portafolio Junior</title>
+    <!-- Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet"
+        type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Footer CSS -->
+    <link rel="stylesheet" href="css/footer.css">
+    <!--Load-->
+    <link rel="stylesheet" href="css/aos.css">
+
+    <!--Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <link rel="stylesheet" href="css/simple-line-icons.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/style2.css">
+
+    <!-- ScrollTop-->
+    <link rel="stylesheet" href="css/scrollTop.css">
+
+    <!--Dark & Light-->
+    <link rel="stylesheet" id="darkLight">
+
+    <!--Page needed-->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/portafolioAboutMe.css">
+    <link rel="stylesheet" href="css/portafolioSkills.css">
+    <link rel="stylesheet" href="css/portafolioContact.css">
+
+    <!--Projects-->
+    <link rel="stylesheet" href="css/projects-desktop.css">
+
+
+    <style>
+        .navbar-light .navbar-nav .nav-link {
+            color: white;
+        }
+
+        #nav-darklight:hover {
+            color: rgb(255, 208, 0) !important;
+        }
+
+        #nav-darklight {
+            padding-top: 0px !important;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!--============================= HEADER =============================-->
+    <div class="nav-menu">
+        <div class="bg transition">
+            <div id="nav" class="container-fluid fixed">
+                <div class="row">
+                    <div class="col-md-12">
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <a class="navbar-brand" href="/" src=""> <img id="nav-img"
+                                    style="padding-left: 20px; width: 120px; height: 60px;" src="images/v10.png"
+                                    alt=""></a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="icon-menu"></span>
+                            </button>
+                            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item ">
+                                        <a class="nav-link" href="#beginning" data-section="nav"
+                                            data-value="1">Inicio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#aboutme" data-section="nav" data-value="2">Acerca de
+                                            mi</a>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a class="nav-link" href="#skills" data-section="nav"
+                                            data-value="3">Habilidades</a>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a class="nav-link" href="#projects" data-section="nav"
+                                            data-value="4">Proyectos</a>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a class="nav-link" href="#contact" data-section="nav"
+                                            data-value="5">Contacto</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" onclick="changeLanguage();" style="cursor: pointer;"><img
+                                                src="images/es-us.png" alt=""></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" onclick="darkLight();" id="nav-darklight"
+                                            style="cursor: pointer;"><i id="btn-darklight"
+                                                class="bi-sun-fill fs-3"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--============================= Slider =============================-->
+    <section class="slider d-flex align-items-center" id="beginning">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-12">
+                    <div class="slider-title_box">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="slider-content_wrap">
+                                    <h1 data-section="slider" data-value="h1">Soluciones creativas, resultados
+                                        innovadores</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--============================= About me =============================-->
+    <section class="main-block" id="aboutme">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-5" style="padding-top: 100px;">
+                    <div class="styled-heading">
+                        <h3 data-section="aboutme" data-value="h3">Acerca de mi</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <h2 id="top-message">
+                    Junior Aburto Ferreto
+                    <div class="col-8 ld"></div>
+                </h2>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-10 col-md-8">
+                    <h3 class="justify decriptionjr" data-section="aboutme" data-value="aboutme1">Soy desarrollador de aplicaciones web especializado en arquitecturas en la nube,
+                        me considero experto en Azure, con 5 años de experiencia supervisando y entrenando un
+                        gran número de personas en el área tecnológica como asesor técnico.
+                    </h3>
+                </div>
+            </div>
+            <div class="row" style="padding-top: 20px;">
+                <div class="col-12 row">
+                    <div class="col-4">
+                        <img class="jr-img" src="images/junior.png"></p>
+                    </div>
+                    <div class="col-8">
+                        <div class="row" id="low-message">
+                            <div class="col-1"></div>
+                            <h1 style="color: #0979b0;" id="title" class="title gradient col-2"></h1>
+                        </div>
+                        <div class="row">
+                            <div class="img-wrapper col-3 col-md-4" style="filter: none !important;">
+                                <div class=" animacion3"></div>
+                            </div>
+                            <p class="misvis col-9 col-md-8" style="margin-top:20px" data-section="aboutme" data-value="mision">
+                                Destacar con excelencia en cada proyecto y tarea que necesite realizar dentro de la
+                                empresa para impactar positivamente en cada trabajo que se me asigne, actualizando mis
+                                conocimientos e innovando en mis soluciones.
+                            </p>
+                        </div>
+                        <div class="row">
+                            <div class="col-7"></div>
+                            <h1 style="color: #0979b0;" id="title2" class="title gradient col-2"></h1>
+                        </div>
+                        <div class="row">
+                            <p class="misvis col-9 col-md-8" data-section="aboutme" data-value="vision">
+                                Alcanzar un nivel alto de experiencia en el desarrollo de software reuniendo una gran
+                                gama de habilidades técnicas y blandas que me vuelvan un profesional destacado e
+                                invaluable en la empresa, para aportar conocimiento como un sobresaliente y excelente
+                                profesional.
+                            </p>
+                            <div class="img-wrapper col-3 col-md-4" style="filter: none !important;">
+                                <div class=" animacion4"></div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-4 col-12">
+                    <h6 style=" text-align: center; margin: 30px 0 0 0 ;"  data-section="aboutme" data-value="valores">
+                        Valores:
+                    </h6>
+                    <p class="justify ld aboutmeexperience spex" style="margin-top: 10px;" data-section="aboutme" data-value="valores2">
+                        Responsabilidad, Excelencia, Compañerismo, Creatividad, Innovación.
+                    </p>
+                </div>
+                <div class="col-md-3 col-12">
+                    <h6 style=" text-align: center; margin: 30px 0 0 0 ;" data-section="aboutme" data-value="idiomas">
+                        Idiomas:
+                    </h6>
+                    <p class="ld aboutmeexperience" style=" text-align: center; margin-top: 10px;" data-section="aboutme" data-value="idiomas2">
+                        Inglés, Español
+                    </p>
+                </div>
+                <div class="col-md-4 col-12">
+                    <h6 style=" text-align: center; margin: 30px 0 0 0 ;" data-section="aboutme" data-value="experiencia">
+                        Experiencia laboral:
+                    </h6>
+                    <p class="ld aboutmeexperience spex" style="margin-top: 10px; text-align: left;" data-section="aboutme" data-value="experiencia2">
+                        2020-2022 Tek Experts (DevOps Technical Lead)
+                        <br>
+                        2022-2023 Microsoft (WebApps Technical Support Engineering)
+                        <br>
+                        2023-2024 Tek Experts (WebApps Technical Advisor)
+                    </p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!--============================= Skills =============================-->
+    <section class="main-block" id="skills">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-5" style="padding-top: 60px;">
+                    <div class="styled-heading">
+                        <h3 data-section="skills" data-value="title">Habilidades</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" style="padding-top: 0px;">
+            <div class="row align-items-center">
+                <div class="col-4 col-md-3" style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 60vh;">
+                    <p class="justify skl" data-section="skills" data-value="1">
+                        Lenguajes de programación:
+                    </p>
+                    <img src="images/skills/java.png" class="img-skills" alt="" style="margin-top: 1px;">
+                    <img src="images/skills/c++.png" class="img-skills" alt="">
+                    <img src="images/skills/csharp.png" class="img-skills" alt="">
+                    <img src="images/skills/python.png" class="img-skills" alt="">
+                    <img src="images/skills/js.png" class="img-skills" alt="">
+                    <br>
+                    <p class="justify skl" style="margin-top: 20px;" data-section="skills" data-value="2">
+                        Bases de datos:
+                    </p>
+                    <img src="images/skills/sqlserver.png" class="img-skills" alt="">
+                    <img src="images/skills/oracle.png" class="img-skills" alt="">
+                    <img src="images/skills/cosmodb.png" class="img-skills" alt="">
+                    <img src="images/skills/mysql.png" class="img-skills" alt="">
+                    <img src="images/skills/mongodb.png" class="img-skills" alt="">
+                </div>
+                <div class="col-4 col-md-6"
+                    style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 70vh;">
+                    <p class="justify skl" data-section="skills" data-value="3">Conocimiento adicional:</p>
+                    <img src="images/skills/networking.png" class="img-skills" alt="">
+                    <img src="images/skills/activedirectory.png" class="img-skills" alt="">
+                    <div class="animacion5"></div>
+                </div>
+                <div class="col-4 col-md-3" style="display: flex; flex-direction: column;  justify-content: center; align-items: center; height: 60vh;">
+                    <p class="justify skl" data-section="skills" data-value="4">
+                        Frameworks:
+                    </p>
+                    <img src="images/skills/react.png" class="img-skills" alt="">
+                    <img src="images/skills/springboot.png" class="img-skills" alt="">
+                    <img src="images/skills/net.png" class="img-skills" alt="">
+                    <img src="images/skills/asp.net.png" class="img-skills" alt="">
+                    <img src="images/skills/wcf.png" class="img-skills" alt="">
+                    <img src="images/skills/signalR.jpeg" class="img-skills" alt="">
+
+                    <p class="justify skl" style="margin-top: 10px;" data-section="skills" data-value="5">
+                        Nube Azure:
+                    </p>
+                    <img src="images/skills/iis.png" class="img-skills" alt="">
+                    <img src="images/skills/devops.png" class="img-skills" alt="">
+                    <img src="images/skills/asppservices.png" class="img-skills" alt="">
+                    <img src="images/skills/azure-bot-service.png" class="img-skills" alt="">
+                    <img src="images/skills/vms.png" class="img-skills" alt="">
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--============================= Projects =============================-->
+
+
+    <div id="projects">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-5" style="padding-top: 20px;">
+                    <div class="styled-heading">
+                        <h3>Proyectos</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-11 col-md-3" style="padding: 0 !important;">
+                    <!-- Section 1 -->
+                    <div class="bd-example sec">
+                        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel"
+                            data-interval="5000" style="height: 100%;">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner" style="height: 100%;">
+                                <div class="carousel-item active">
+                                    <img src="images/projects/Macao/1.jpg" class="d-block w-100" alt="..."
+                                        style="height: 100%; object-fit: cover;">
+                                    <div class="carousel-caption">
+                                        <h1>Macao</h1>
+                                        <p>Desarrollado con: NodeJs</p>
+                                        <p>En: 2017</p>
+                                        <p>Repo: <a href="https://github.com/juniorricardoaf/macao/" style="text-decoration: underline;" target="_blank">Github</a></p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/projects/Macao/2.jpg" class="d-block w-100" alt="..."
+                                        style="height: 100%; object-fit: cover;">
+                                    <div class="carousel-caption">
+                                        <h1>Macao</h1>
+                                        <p>Desarrollado con: NodeJs</p>
+                                        <p>En: 2017</p>
+                                        <p>Repo: <a href="https://github.com/juniorricardoaf/macao/" style="text-decoration: underline;" target="_blank">Github</a></p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/projects/Macao/3.jpg"
+                                        class="d-block w-100" alt="..." style="height: 100%; object-fit: cover;">
+                                    <div class="carousel-caption">
+                                        <h1>Macao</h1>
+                                        <p>Desarrollado con: NodeJs</p>
+                                        <p>En: 2017</p>
+                                        <p>Repo: <a href="https://github.com/juniorricardoaf/macao/" style="text-decoration: underline;" target="_blank">Github</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button"
+                                data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button"
+                                data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Section 2-->
+                    <div class="bd-example sec">
+                        <div id="carouselExampleCaptions2" class="carousel slide" data-ride="carousel"
+                            data-interval="5000" style="height: 100%;">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleCaptions2" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleCaptions2" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleCaptions2" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner" style="height: 100%;">
+                                <div class="carousel-item active">
+                                    <img src="images/projects/Xeeker/1.jpg" class="d-block w-100" alt="..."
+                                        style="height: 100%; object-fit: cover;">
+                                    <div class="carousel-caption">
+                                        <h1>Xeeker</h1>
+                                        <p>Desarrollado con: ASP.NET MVC</p>
+                                        <p>En: 2018 </p>
+                                        <p>Repo: <a href="https://github.com/juniorricardoaf/xeeker/" style="text-decoration: underline;" target="_blank">Github</a></p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/projects/Xeeker/2.jpg" class="d-block w-100" alt="..."
+                                        style="height: 100%; object-fit: cover;">
+                                    <div class="carousel-caption">
+                                        <h1>Xeeker</h1>
+                                        <p>Desarrollado con: ASP.NET MVC</p>
+                                        <p>En: 2018 </p>
+                                        <p>Repo: <a href="https://github.com/juniorricardoaf/xeeker/" style="text-decoration: underline;" target="_blank">Github</a></p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/projects/Xeeker/3.jpg"
+                                        class="d-block w-100" alt="..." style="height: 100%; object-fit: cover;">
+                                    <div class="carousel-caption">
+                                        <h1>Xeeker</h1>
+                                        <p>Desarrollado con: ASP.NET MVC</p>
+                                        <p>En: 2018 </p>
+                                        <p>Repo: <a href="https://github.com/juniorricardoaf/xeeker/" style="text-decoration: underline;" target="_blank">Github</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleCaptions2" role="button"
+                                data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleCaptions2" role="button"
+                                data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-11 col-md-3 img-wrapper" style="padding: 0px !important;">
+                    <section class="sec projectmiddle" style="display: flex; flex-direction: column; justify-content: center; align-items: center; ">
+                        <img src="images/developer.svg" style="height: 100%; width: 100%;" alt="">
+                    </section>
+                </div>
+                <div class="col-11 col-md-3" style="padding: 0px !important;">
+                      <!-- Section 3 -->
+                      <div class="bd-example sec">
+                        <div id="carouselExampleCaptions3" class="carousel slide" data-ride="carousel"
+                            data-interval="5000" style="height: 100%;">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleCaptions3" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleCaptions3" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleCaptions3" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleCaptions3" data-slide-to="3"></li>
+                            </ol>
+                            <div class="carousel-inner" style="height: 100%;">
+                                <div class="carousel-item active">
+                                    <img src="images/projects/ReinosCenfotecos/1.jpg" class="d-block w-100" alt="..."
+                                        style="height: 100%; object-fit: cover;">
+                                    <div class="carousel-caption">
+                                        <h1>Reinos Cenfotectos</h1>
+                                        <p>Desarrollado con: React & Springboot</p>
+                                        <p>En: 2022 </p>
+                                        <p>Repo: <a href="https://github.com/juniorricardoaf/reinoscenfotecos/" style="text-decoration: underline;" target="_blank">Github</a></p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/projects/ReinosCenfotecos/2.jpg" class="d-block w-100" alt="..."
+                                        style="height: 100%; object-fit: cover;">
+                                    <div class="carousel-caption">
+                                        <h1>Reinos Cenfotectos</h1>
+                                        <p>Desarrollado con: React & Springboot</p>
+                                        <p>En: 2022 </p>
+                                        <p>Repo: <a href="https://github.com/juniorricardoaf/reinoscenfotecos/" style="text-decoration: underline;" target="_blank">Github</a></p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/projects/ReinosCenfotecos/3.jpg"
+                                        class="d-block w-100" alt="..." style="height: 100%; object-fit: cover;">
+                                    <div class="carousel-caption">
+                                        <h1>Reinos Cenfotectos</h1>
+                                        <p>Desarrollado con: React & Springboot</p>
+                                        <p>En: 2022 </p>
+                                        <p>Repo: <a href="https://github.com/juniorricardoaf/reinoscenfotecos/" style="text-decoration: underline;" target="_blank">Github</a></p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/projects/ReinosCenfotecos/4.jpg"
+                                        class="d-block w-100" alt="..." style="height: 100%; object-fit: cover;">
+                                    <div class="carousel-caption">
+                                        <h1>Reinos Cenfotectos</h1>
+                                        <p>Desarrollado con: React & Springboot</p>
+                                        <p>En: 2022 </p>
+                                        <p>Repo: <a href="https://github.com/juniorricardoaf/reinoscenfotecos/" style="text-decoration: underline;" target="_blank">Github</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleCaptions3" role="button"
+                                data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleCaptions3" role="button"
+                                data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Section 4 -->
+                    <div class="bd-example sec">
+                        <div id="carouselExampleCaptions5" class="carousel slide" data-ride="carousel"
+                            data-interval="5000" style="height: 100%;">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleCaptions5" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleCaptions5" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleCaptions5" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner" style="height: 100%;">
+                                <div class="carousel-item active">
+                                    <img src="images/projects/ConstructoraDayans/1.jpg" class="d-block w-100" alt="..."
+                                        style="height: 100%; object-fit: cover;">
+                                    <div class="carousel-caption">
+                                        <h1>Constructora Dayans</h1>
+                                        <p>Desarrollado con: HTML,CSS,JS,Bootstrap</p>
+                                        <p>En: 2023</p>
+                                        <p>Repo: <a href="https://github.com/juniorricardoaf/constructoradayans" style="text-decoration: underline;" target="_blank">Github</a></p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/projects/ConstructoraDayans/2.jpg" class="d-block w-100" alt="..."
+                                        style="height: 100%; object-fit: cover;">
+                                    <div class="carousel-caption">
+                                        <h1>Constructora Dayans</h1>
+                                        <p>Desarrollado con: HTML,CSS,JS,Bootstrap</p>
+                                        <p>En: 2023</p>
+                                        <p>Repo: <a href="https://github.com/juniorricardoaf/constructoradayans" style="text-decoration: underline;" target="_blank">Github</a></p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/projects/ConstructoraDayans/3.jpg"
+                                        class="d-block w-100" alt="..." style="height: 100%; object-fit: cover;">
+                                    <div class="carousel-caption">
+                                        <h1>Constructora Dayans</h1>
+                                        <p>Desarrollado con: HTML,CSS,JS,Bootstrap</p>
+                                        <p>En: 2023</p>
+                                        <p>Repo: <a href="https://github.com/juniorricardoaf/constructoradayans" style="text-decoration: underline;" target="_blank">Github</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleCaptions5" role="button"
+                                data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleCaptions5" role="button"
+                                data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--============================= Contact =============================-->
+    <section class="main-block" id="contact">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-5" style="padding-top: 100px;">
+                    <div class="styled-heading">
+                        <h3 data-section="contact" data-value="title">Contacto</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <section id="contact-card">
+                        <div class="contact-box row">
+                            <div class="contact-links col-md-6 col-12 ">
+                                <h2 style="padding-top: 120px;" data-section="contact" data-value="1">Redes</h2>
+                                <div class="links">
+                                    <div class="link">
+                                        <a href="https://github.com/juniorricardoaf" target="_blank"><i
+                                                class="bi bi-github fs-3"> Github</i></a>
+                                    </div>
+                                    <div class="link">
+                                        <a href="https://www.linkedin.com/in/junior-aburto-ferreto/" target="_blank"><i
+                                                class="bi bi-linkedin fs-3"> LinkedIn</i></a>
+                                    </div>
+                                </div>
+                                <div class="oficinas">
+                                    <h2 data-section="contact" data-value="2">Contacto personal:</h2>
+                                    <p><i class="fas fa-phone"></i> (506) 7151-4989</p>
+                                    <p><i class="fas fa-envelope"></i><a href="mailto:juniorricardoaf@gmail.com"
+                                            id="contact-email">
+                                            juniorricardoaf@gmail.com</a>
+                                    </p>
+                                    <p><i class="fas fa-map-marker-alt"></i> San José</p>
+                                    <p><a href="https://wa.me/+50671514989" target="_blank"><i class="bi bi-whatsapp"
+                                                style="font-size: 30px;"></i></a></p>
+                                </div>
+                                <div class="btn-cv row justify-content-center" style="padding-top: 20px;">
+                                    <div class="col-5">
+                                        <a href="documents/JuniorAburtoEng.pdf" download="JuniorAburtoEng.pdf"
+                                            target="_blank" rel="noopener noreferrer">
+                                            <button>Download CV</button>
+                                        </a>
+                                    </div>
+                                    <div class="col-5">
+                                        <a href="documents/JuniorAburtoEsp.pdf" download="JuniorAburtoEsp.pdf"
+                                            target="_blank" rel="noopener noreferrer">
+                                            <button>Descargar CV</button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contact-form-wrapper col-md-6 col-12">
+                                <p style="color:black;" data-section="contact" data-value="3"> Si usted desea solicitar información, proponerme un proyecto, o
+                                    cualquier otro asunto, puede ponerse en contacto conmigo utilizando
+                                    el siguiente formulario:</p>
+                                <form>
+                                    <div class="form-item">
+                                        <input type="text" id="nombre" name="sender" required>
+                                        <label>Nombre:</label>
+                                    </div>
+                                    <div class="form-item">
+                                        <input type="text" id="email" name="email" required>
+                                        <label>Email:</label>
+                                    </div>
+                                    <div class="form-item">
+                                        <input type="number" id="numero" name="phone" required>
+                                        <label>Teléfono:</label>
+                                    </div>
+                                    <div class="form-item">
+                                        <input type="text" id="asunto" name="subject" required>
+                                        <label>Asunto:</label>
+                                    </div>
+                                    <div class="form-item">
+                                        <textarea rows="4" id="mensaje" cols="20" class="" name="message"
+                                            required></textarea>
+                                        <label>Mensaje:</label>
+                                    </div>
+                                    <button class="submit-btn" data-section="contact" data-value="4">Enviar</button>
+                                </form>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--============================= Footer =============================-->
+    <footer class="">
+        <div class="footer-top col-12">
+            <div class="container" style="padding-top: 60px;">
+                <div class="row">
+                    <div class="col-md-4 col-4 footer-about wow fadeInUp">
+                        <div class="row imagen-footer justify-content-center">
+                            <div class="col-10 col-md-6">
+                                <img class="logo-footer" src="images/v10.png" alt="logo-footer"
+                                    data-at2x="~/Content/imgs/Logo.png">
+                            </div>
+                        </div>
+                        <div class="row language d-flex justify-content-center">
+                            <p id="p-language" style="text-align: center;">Elige un lenguaje / Choose a language</p>
+                            <div class="col-5 col-md-5 col-lg-3 animacion " style="width: 70%; cursor: pointer;"></div>
+                            <div class="col-5 col-md-5 col-lg-3 animacion2" style="width: 70%; cursor: pointer;"></div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4 col-6 footer-contact wow fadeInDown">
+                        <h3 data-section="footer" data-value="t1">Contacto</h3>
+                        <p><i class="fas fa-phone"></i> (506) 7151-4989</p>
+                        <p><i class="fas fa-envelope"></i><a href="mailto:juniorricardoaf@gmail.com" id="footer-email">
+                                juniorricardoaf@gmail.com</a>
+                        </p>
+                    </div>
+                    <div class="col-md-4 col-2 footer-links wow fadeInUp">
+                        <h3 data-section="footer" data-value="t2">Redes</h3>
+                        <p>
+                        <ul class="list-inline mb-0">
+                            <li class="list-inline-item me-4">
+                                <a href="https://github.com/juniorricardoaf" target="_blank"><i
+                                        class="bi bi-github fs-3"></i></a>
+                            </li>
+                        </ul>
+                        </p>
+                        <p>
+                        <ul class="list-inline mb-0">
+                            <li class="list-inline-item me-4">
+                                <a href="https://www.linkedin.com/in/junior-aburto-ferreto/" target="_blank"><i
+                                        class="bi bi-linkedin fs-3"></i></a>
+                            </li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 h-100 footer-about wow fadeInUp text-lg-start my-auto">
+                            <p class="text-muted small mb-4 mb-lg-0"> Copyright &copy; juniorricardoaf.site 2024. Todos
+                                los derechos reservados
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--============================= Load & ScrollTop =============================-->
+    <button id="scrollToTopBtn" class="btn btn-primary"><i class="bi bi-arrow-up"></i></button>
+    <div id="ftco-loader" class="show fullscreen">
+        <svg class="circular" width="48px" height="48px">
+            <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+            <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+                stroke="darkred" />
+        </svg>
+    </div>
+
+    <!--J Query-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- AOS-->
+    <script src="js/aos.js"></script>
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- Translate-->
+    <script src="js/translate.js"></script>
+
+    <!-- Lottie-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.13/lottie.min.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@0.3.0/dist/lottie-player.js"></script>
+
+    <!-- Needed-->
+    <script src="js/main.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/portafolio.js"></script>
+    <script src="js/contacto.js"></script>
+    <script src="js/scrollTop.js"></script>
+    <script src="js/light-dark.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script>
+        //al scrollear el nav
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 100) {
+                //cambiar el nav
+                $('.fixed').addClass('is-sticky');
+
+                //cambiar la imagen del nav
+                const navimg = document.getElementById('nav-img');
+                navimg.src = "images/v6.png";
+
+            } else {
+                $('.fixed').removeClass('is-sticky');
+
+                const navimg = document.getElementById('nav-img');
+                navimg.src = "images/v10.png";
+
+            };
+        });
+
+
+
+        //Movimiento con flechas
+        function handleArrowKeys(event) {
+            var scrollAmount = 100; // Cantidad de desplazamiento en píxeles
+            const currentScroll = window.scrollY;
+
+            switch (event.key) {
+                case 'ArrowDown':
+                    // Desplazar hacia abajo
+                    window.scrollTo({
+                        top: currentScroll + scrollAmount,
+                        behavior: 'smooth'
+                    });
+                    break;
+                case 'ArrowUp':
+                    // Desplazar hacia arriba
+                    window.scrollTo({
+                        top: currentScroll - scrollAmount,
+                        behavior: 'smooth'
+                    });
+                    break;
+            }
+        }
+        window.addEventListener('keydown', handleArrowKeys);
+    </script>
+</body>
+
+</html>

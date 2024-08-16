@@ -1,0 +1,43 @@
+{   
+    "nav": {
+        "1": "Inicio",
+        "2": "Acerca de mi",
+        "3": "Habilidades",
+        "4": "Proyectos",
+        "5": "Contacto"
+    },
+    "footer": {
+        "t1": "Contacto",
+        "t2": "Redes"
+    },
+    "slider":{
+        "h1": "Soluciones creativas, resultados innovadores"
+    },
+    "aboutme":{
+        "h3": "Acerca de mi",
+        "aboutme1": "Soy desarrollador de aplicaciones web especializado en arquitecturas en la nube, me considero experto en Azure, con 5 años de experiencia supervisando y entrenando un gran número de personas en el área tecnológica como asesor técnico.",
+        "mision": "Destacar con excelencia en cada proyecto y tarea que necesite realizar dentro de la empresa para impactar positivamente en cada trabajo que se me asigne, actualizando mis conocimientos e innovando en mis soluciones.",
+        "vision": "Alcanzar un nivel alto de experiencia en el desarrollo de software reuniendo una gran gama de habilidades técnicas y blandas que me vuelvan un profesional destacado e invaluable en la empresa, para aportar conocimiento como un sobresaliente y excelente profesional.",
+        "valores": "Valores:",
+        "valores2": "Responsabilidad, Excelencia, Compañerismo, Creatividad, Innovación.",
+        "idiomas": "Idiomas:",   
+        "idiomas2": "Inglés, Español",
+        "experiencia": "Experiencia laboral:",
+        "experiencia2": "2020-2022 Tek Experts (DevOps Technical Lead)<br>2022-2023 Microsoft (WebApps Technical Support Engineering)<br>2023-2024 Tek Experts (WebApps Technical Advisor)"
+    },
+    "skills":{
+        "title": "Habilidades",
+        "1": "Lenguajes de programación:",
+        "2": "Bases de datos:",
+        "3": "Conocimiento adicional:",
+        "4": "Frameworks:",
+        "5": "Nube Azure:"
+    },
+    "contact":{
+        "title": "Contacto",
+        "1": "Redes",
+        "2": "Contacto personal:",
+        "3": "Si usted desea solicitar información, proponerme un proyecto, o cualquier otro asunto, puede ponerse en contacto conmigo utilizando el siguiente formulario:",
+        "4": "Emviar"
+    }
+}
