@@ -1,0 +1,15 @@
+{
+    "routes": [
+        {
+            "route": "/404",
+            "serve": "/404.html",
+            "statusCode": 404
+        }
+    ],
+    "responseOverrides": {
+        "404": {
+            "rewrite": "/404.html",
+            "statusCode": 404
+        }
+    }
+}
