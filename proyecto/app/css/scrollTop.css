@@ -1,0 +1,15 @@
+#scrollToTopBtn {
+    background: #063254;
+    border-color: #0979b0;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none; /* Ocultar el botón por defecto */
+    z-index: 1000; /* Asegurarse de que el botón esté sobre otros elementos */
+    padding: 8px 16px 8px 16px;
+  }
+
+  #scrollToTopBtn:hover {
+    color: rgb(255, 255, 255);
+    background: #0979b0;
+  }

@@ -1,0 +1,11 @@
+
+/*fondo oscuro*/
+body{
+    background: black;
+}
+
+/*Letras claras*/
+
+.styled-heading, #top-message, .justify,.misvis,h6,.ld{
+    color: white !important;
+}

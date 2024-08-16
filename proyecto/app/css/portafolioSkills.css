@@ -1,0 +1,40 @@
+.img-skills{
+    height: 80px;
+    width:  100px;
+}
+
+.skl{
+    padding: 10px;
+    background: rgba(101, 101, 101, 0.242);
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+@media(max-width:900px) {
+    .img-skills{
+        height: 50px;
+        width:  60px;
+    }
+    
+    .skl{
+        font-size: 10px;
+    }
+
+}
+@media(max-width:500px) {
+    .img-skills{
+        height: 40px;
+        width:  50px;
+    }
+    
+    .skl{
+        font-size: 7px;
+    }
+
+}
+@media(max-width:412px) {
+    .skl{
+        font-size: 5px;
+    }
+
+}

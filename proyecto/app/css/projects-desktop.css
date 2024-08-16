@@ -1,0 +1,95 @@
+.sec{
+    margin: 0 auto;
+    position: relative;
+    height: 50vh;
+}
+
+.carousel-caption{
+    background: rgba(0, 0, 0, 0.764);
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-size: 25px;
+}
+
+.carousel,
+.carousel-inner,
+.carousel-item {
+  height: 100%;
+}
+
+.carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover; 
+}
+.projectmiddle{
+    height: 100vh;
+}
+
+.carousel-caption p a:hover{
+    color: black;
+}
+
+@media(max-width:1200px) {
+    .carousel-caption h1{
+        font-size: 15px !important;
+    }
+    .carousel-caption p{
+        font-size: 12px !important;
+        margin-bottom: 2px !important;
+    }
+}
+
+@media(max-width:900px) {
+    .sec {
+        height: 250px;
+        padding-top: 10px;
+    }
+
+    .sec div h1 {
+        font-size: 30px;
+    }
+    .projectmiddle{
+        height: 50vh;
+    }
+}
+
+@media(max-width:772px) {
+    .sec{
+        margin: 0 auto;
+        position: relative;
+        height: 40vh;
+    }
+    
+    .carousel-caption p{
+        margin-bottom: 10px !important;
+    }
+}
+@media(max-width:600px) {
+    .sec {
+        height: 380px;
+    }
+
+    .sec div h1 {
+        font-size: 22px;
+    }
+}
+
+@media(max-width:400px) {
+    .sec {
+        height: 250px;
+    }
+
+    .sec div h1 {
+        font-size: 17px;
+        font-weight: 400;
+    }
+
+}
+
+@media(max-width:350px) {
+    .sec {
+        height: 100px;
+    }
+}

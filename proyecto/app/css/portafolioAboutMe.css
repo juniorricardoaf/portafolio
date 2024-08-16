@@ -1,0 +1,189 @@
+/*  --------------------- About me ------------------------- */
+.jr-img {
+    height: 100%;
+    width: 100%;
+}
+
+/*QUIENES SOMOS?*/
+#top-message {
+    padding-top: 0px;
+    position: relative;
+    width: fit-content;
+    /*color: #ffffff !important;*/
+    font-size: 3rem;
+    overflow: hidden;
+    margin-bottom: 4rem;
+}
+
+/*desvanecer mensaje*/
+@keyframes fadeOutUp {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+}
+
+.fade-out-up {
+    animation: fadeOutUp 3s forwards;
+}
+
+#top-message>div:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 20%, rgba(160, 151, 151, rgba(14, 0, 0, 0), 0) 80%);
+    background-size: 300% 100%;
+    background-position-x: -20%;
+    animation: gradient 10.5s linear forwards;
+}
+
+@keyframes gradient {
+    to {
+        background-position-x: -180%;
+    }
+}
+
+
+
+.title {
+    position: relative;
+    height: 4rem;
+    display: flex;
+    white-space: pre;
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    letter-spacing: -5px;
+}
+
+.title::after {
+    position: absolute;
+    width: 100%;
+    height: 300%;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    background: linear-gradient(45deg, #30aef5, #ff76d4);
+    mix-blend-mode: darken;
+}
+
+.title>span {
+    position: relative;
+    opacity: 0;
+    transform: translateY(-100%);
+    animation: bounce-in 1s cubic-bezier(.49, .37, .53, 1.39) forwards;
+}
+
+@keyframes bounce-in {
+    to {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+.misvis {
+    text-align: justify !important;
+    width: 25rem;
+    /*font-family: 'Flow Circular', cursive;*/
+    opacity: 0;
+    transform: translatex(-100%);
+    animation: slide-in 0.5s cubic-bezier(.49, .37, .53, 1.39) 1.5s forwards;
+    margin-left: auto;
+    color: #ffffff;
+    font-size: 18px;
+    margin-left: 0px !important;
+
+}
+
+@keyframes slide-in {
+    to {
+        transform: translatex(0);
+        opacity: 1;
+    }
+}
+
+
+#title2 {
+    margin-top: 60px;
+}
+
+
+
+.animacion3,
+.animacion4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+/*Responsive*/
+@media(max-width: 990px) {
+    .misvis {
+        font-size: 14px;
+    }
+
+    .aboutmeexperience{
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 768px) {
+    .decriptionjr{
+        font-size: 16px;
+    }
+    .title {
+        font-size: 2.5rem;
+        letter-spacing: -2px;
+        height: 35px;
+    }
+
+    #title2 {
+        margin-top: 0px;
+    }
+
+    .spex{
+        text-align: center !important;
+    }
+    .misvis {
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 550px) {
+    h6{
+        font-size: 14px;
+    }
+    #top-message{
+        font-size: 20px;
+    }
+
+    .title {
+        font-size: 2.2rem;
+        letter-spacing: -2px;
+        height: 30px;
+    }
+
+    .misvis {
+        font-size: 10px;
+    }
+
+}
+
+@media(max-width: 450px) {
+    .misvis {
+        font-size: 8px;
+    }
+}
+
+
